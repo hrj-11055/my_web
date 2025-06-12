@@ -1,0 +1,50 @@
+# 网站基本信息
+title: MarkHuang个人项目博客
+subtitle: 简历、项目与技术分享
+description: 这是我的个人项目展示和博客网站，包含个人简历、项目介绍和技术博客
+author: 黄仁杰
+
+# 网站URL设置
+url: "https://hrj-11055.github.io" # 替换为您的GitHub用户名
+baseurl: ""
+
+# 社交媒体链接
+social:
+  github: hrj-11055
+  email: 1415994589@qq.com
+
+# 导航菜单
+nav:
+  - title: 首页
+    url: /
+  - title: 关于我
+    url: /about/
+  - title: 项目
+    url: /projects/
+  - title: 博客
+    url: /blog/
+
+# 主题设置
+theme: jekyll-theme-chirpy # 或者使用 remote_theme: cotes2020/jekyll-theme-chirpy
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
